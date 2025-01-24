@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Negocio</title>
+</head>
+<body>
+    <link rel="stylesheet" href="formato.css">
+    <h1> Venta de velas </h1>
+    <hr>
+    <p> Nuestra empresa se dedica a crear velas aromaticas para tu hogar. Creamos de un gran variedad de colores, fragancias, diseños y más.</p>
+    <br>
+    <h2> ¡Crea tu propia vela!</h2>
+    <br>
+    <img src="images.png" alt="Imagen de velas" width="300" height="170">
+    <br>
+    <p> Favor de responder cada uno de los campos solicitados.</p>
+    <br>
+    <form action="/formulario" method="POST">
+        <label for="nombre"> Nombre </label>
+        <input id="nombre" name="nombre" placeholder="Escribe tu nombre">
+        <br>
+        <br>
+        <label for="material"> Material </label>
+        <input id="material"name="material" placeholder="Escribe el material del cuál será tu vela">
+        <br>
+        <br>
+        <label for="color "> Color </label>
+        <input id="color"name="color" placeholder="Escribe el color deseado">
+        <br>
+        <br>
+        <label for="Cantidad"> Cantidad </label>
+        <input id="Cantidad"name="Cantidad" placeholder="Escribe el número de velas deseadas">
+        <br>
+        <br>
+        <p>¿Qué tamaño deseas?</p>
+        <br>
+        <label>
+            <input type="checkbox" name="lugar[]" value="tamaño">
+            Pequeño
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="lugar[]" value="tamaño">
+            Mediano
+        </label>
+        <input type="checkbox" name="lugar[]" value="tamaño">
+            Grande
+        </label>
+        <br>
+        <label for="Comentarios"> Comentarios </label>
+        <textarea id="Comentarios"name="Comentarios" placeholder="a"> </textarea>
+        <br>
+        <br>
+        <input type="submit">
+        <button type="reset">Borrar todo</button>
+    </form>
+    <br>
+    <br>
+    <h2> Sobre nosotros</h2>
+    <br>
+    <p> Número de teléfono: +52 33 1234 5678 </p>
+    <p> correo electrónico: contacto@velasaromaticasgdl.mx </p>
+    <p> ubicación: C. abrazos no balazos 1234 Guadalajara, Jalisco.</p>
+    <br>
+    <br>
+    <h2> Sobre nuestros programadores</h2>
+    <br>
+    <p> Número de teléfono: +52 33 9876 5432 </p>
+    <p> correo electrónico: contacto@hackersgdl.mx </p>
+    <p> ubicación: Av. Revolución 1234 Guadalajara, Jalisco.</p>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+body {
+    background-color: #e4edf5;
+    font-family: Arial, sans-serif; 
+    color: #000000; 
+}
+
+h1 {
+    background-color: rgb(199, 94, 176);
+    padding: 100px;
+    font-family: 'Times New Roman', serif; 
+    color: rgb(255, 255, 255); 
+    text-align:left;
+}
+h2 {
+    background-color: rgb(158, 36, 180);
+    padding: 50px;
+    font-family: 'Georgia', serif; 
+    color: rgb(255, 255, 255); 
+}
+
+p {
+    font-family: Arial, sans-serif; 
+    color: rgb(0, 0, 0); 
+}
+
+.margen {
+    margin: 20px;
+    background-color: lightblue; 
+    padding: 10px; 
+    display: inline-block;
+    border: 1px solid black;
+    
+}
